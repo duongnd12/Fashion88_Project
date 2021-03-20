@@ -1,0 +1,486 @@
+/* =========TABLET========= */
+
+@media only screen and (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* CSS Home */
+
+  .home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/happypoints1.jpg");
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "gothamhtf-bold", sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .home .heading1 {
+    font-size: 58px;
+    position: absolute;
+    top: 5%;
+  }
+
+  .home ul {
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+  }
+
+  .home a {
+    color: var(--home-link);
+    font-family: "gothamhtf-book", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .home a:hover {
+    font-size: 18px;
+    transition: 0.4s;
+    color: var(--home-link-hover);
+  }
+
+  /* CSS Second */
+
+  .second {
+    width: 100%;
+    display: flex;
+  }
+
+  .second .second-left {
+    width: 50%;
+    height: 50vw;
+    background-image: url("../imgs/happypoints2.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-text);
+    font-family: "gothamhtf-book";
+  }
+
+  .second .second-right {
+    width: 50%;
+    height: 50vw;
+    background-image: url("../imgs/hamsa.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-text);
+    font-family: "gothamhtf-book";
+  }
+
+  p {
+    margin: 20px;
+    text-align: center;
+  }
+
+  /* CSS Third */
+
+  .third {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .third .third-1 {
+    width: 100%;
+    background-image: url("../imgs/Rectangle1.jpg");
+    background-size: cover;
+  }
+
+  .third .third-2 {
+    background-image: url("../imgs/Rectangle2.jpg");
+    background-size: cover;
+  }
+
+  .third .third-3 {
+    width: 100%;
+    height: 33vw;
+    background-image: url("../imgs/Rectangle3.jpg");
+    background-size: cover;
+  }
+
+  .third .third-4 {
+    width: 100%;
+    background-image: url("../imgs/Rectangle4.jpg");
+    background-size: cover;
+  }
+
+  .third .third-5 {
+    width: 100%;
+    height: 33vw;
+    background-image: url("../imgs/Rectangle5.jpg");
+    background-size: cover;
+  }
+
+  /* CSS Fourd */
+
+  .fourd {
+    display: flex;
+    margin: 20px;
+    margin-bottom: 100px;
+    position: relative;
+    font-size: 14px;
+    height: 10vw;
+  }
+
+  .fourd .fourd-left {
+    display: flex;
+    position: absolute;
+    left: 0;
+    font-family: "gothamhtf-bold", sans-serif;
+    flex-direction: column;
+  }
+
+  .fourd .fourd-left .form-group {
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 100%;
+  }
+
+  .fourd .fourd-left .form-group input {
+    width: 226px;
+    height: 30px;
+    border: 1px solid black;
+  }
+
+  .fourd .fourd-left .form-group button {
+    margin-left: 10px;
+    width: 40px;
+    background-color: var(--button);
+    color: var(--second-text);
+    font-family: "gothamhtf-book", sans-serif;
+    border: none;
+  }
+
+  .fourd .fourd-left .icon-link ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 110px;
+    font-size: 28px;
+  }
+
+  .fourd .fourd-left .icon-link li {
+    margin-left: 20px;
+  }
+
+  .fourd .fourd-left .icon-link a {
+    color: var(--icon);
+  }
+
+  .fourd .fourd-right {
+    display: flex;
+    position: absolute;
+    right: 0;
+    font-family: "gothamhtf-bold";
+  }
+
+  .fourd .fourd-right ul {
+    list-style-type: none;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .fourd .fourd-right ul li a {
+    text-decoration: none;
+    color: var(--home-link);
+    font-family: "gothamhtf-book";
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .fourd .fourd-right ul li a:hover {
+    font-size: 16px;
+    transition: 0.4s;
+    color: var(--home-link-hover);
+  }
+
+  .final {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .final ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .final ul li {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .final ul li a {
+    text-decoration: none;
+    color: var(--home-link);
+  }
+}
+
+/* =========MOBILE========= */
+
+@media only screen and (max-width: 599px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* CSS Home */
+  .home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imgs/happypoints1.jpg");
+    background-position: 97%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: "gothamhtf-bold", sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .home .heading1 {
+    font-size: 32px;
+    position: absolute;
+    top: 5%;
+  }
+
+  .home ul {
+    list-style-type: none;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+  }
+
+  .home a {
+    color: var(--home-link);
+    font-family: "gothamhtf-book", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .home a:hover {
+    font-size: 18px;
+    transition: 0.4s;
+    color: var(--home-link-hover);
+  }
+
+  /* CSS Second */
+  .second {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .second .second-left {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/happypoints2.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-text);
+    font-family: "gothamhtf-book";
+  }
+
+  .second .second-right {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/hamsa.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--second-text);
+    font-family: "gothamhtf-book";
+  }
+
+  p {
+    margin: 20px;
+    text-align: center;
+  }
+
+  /* CSS Third */
+
+  .third {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .third .third-1 {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/Rectangle1.jpg");
+    background-size: cover;
+  }
+
+  .third .third-2 {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/Rectangle2.jpg");
+    background-size: cover;
+  }
+
+  .third .third-3 {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/Rectangle3.jpg");
+    background-size: cover;
+  }
+
+  .third .third-4 {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/Rectangle4.jpg");
+    background-size: cover;
+  }
+
+  .third .third-5 {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../imgs/Rectangle5.jpg");
+    background-size: cover;
+  }
+
+  /* CSS Fourd */
+
+  .fourd {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 20px; */
+    margin-bottom: 250px;
+    font-size: 14px;
+    height: 10vw;
+  }
+
+  .fourd .fourd-left {
+    display: flex;
+    position: absolute;
+    top: 160px;
+    left: 5%;
+    font-family: "gothamhtf-bold", sans-serif;
+  }
+
+  .fourd .fourd-left p {
+    font-size: 12px;
+    justify-content: center;
+  }
+
+  .fourd .fourd-left .form-group {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+  }
+
+  .fourd .fourd-left .form-group input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+  }
+
+  .fourd .fourd-left .form-group button {
+    margin-left: 10px;
+    width: 40px;
+    background-color: var(--button);
+    color: var(--second-text);
+    font-family: "gothamhtf-book", sans-serif;
+    border: none;
+  }
+
+  .fourd .fourd-left .icon-link ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    font-size: 24px;
+  }
+
+  .fourd .fourd-left .icon-link li {
+    margin-left: 25px;
+  }
+
+  .fourd .fourd-left .icon-link a {
+    color: var(--icon);
+  }
+
+  .fourd .fourd-right {
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    justify-content: center;
+    display: flex;
+    font-family: "gothamhtf-bold";
+  }
+  .fourd .fourd-right ul {
+    list-style-type: none;
+    /* width: 200px; */
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .fourd .fourd-right ul li a {
+    text-decoration: none;
+    color: var(--home-link);
+    font-family: "gothamhtf-book";
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .fourd .fourd-right ul li a:hover {
+    font-size: 16px;
+    transition: 0.4s;
+    color: var(--home-link-hover);
+  }
+
+  /* CSS Final */
+
+  .final {
+    font-size: 12px;
+    justify-content: center;
+  }
+
+  .final ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .final ul li {
+    margin: 20px 1px;
+  }
+
+  .final ul li a {
+    text-decoration: none;
+    color: var(--home-link);
+  }
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "gothamhtf-bold";
+  src: url("../../assets/fonts/gothamhtf-bold-webfont.ttf");
+}
+
+@font-face {
+  font-family: "gothamhtf-book";
+  src: url("../../assets/fonts/gothamhtf-book-webfont.ttf");
+}
