@@ -1,1 +1,1 @@
-# Fashion88_Object
+# Fashion88_Project
